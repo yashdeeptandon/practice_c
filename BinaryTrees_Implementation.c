@@ -23,6 +23,7 @@ struct node *create()
     printf("\nEnter Left Child of %d: ", x);
     new_node->left = create();
     printf("\nEnter Right Child of %d: ", x);
+    
     new_node->right = create();
     return new_node;
 }
